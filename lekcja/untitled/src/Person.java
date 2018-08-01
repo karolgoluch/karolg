@@ -6,11 +6,11 @@ public class Person {
 
     }
 
-    public Person(String name) {
+    Person(String name) {
         this.name=name;
     }
 
-    public void introduce() {
+    void introduce() {
         System.out.println("My name is "+name);
     }
 }
